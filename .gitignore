@@ -1,0 +1,6 @@
+data/
+model/
+outputs/
+logs/
+__pycache__/
+.vscode/

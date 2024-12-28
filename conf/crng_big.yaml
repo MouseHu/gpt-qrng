@@ -1,0 +1,15 @@
+#crng28:
+datadir: "./data/LCG28_24.dat"
+savedir: "./model/LCG28.model"
+nbits: 8
+seqlen: 20
+seed: 42
+train_split: 0.97
+total_split: 1
+train_size: 10000000000
+batch_size: 4196
+test_iter: 10000
+num_workers: 32
+model_type: 'gopher-44m'
+name: 'LCG28_24_gopher'
+logdir: "./logs/"

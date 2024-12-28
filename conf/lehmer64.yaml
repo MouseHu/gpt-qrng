@@ -1,0 +1,18 @@
+#68G:
+datadir: "./data/lehmer64_24.dat"
+savedir: "./model/lehmer.model"
+nbits: 8
+seqlen: 80
+seed: 42
+train_split: 0.97
+total_split: 1
+train_size: 10000000000
+batch_size: 1024
+test_iter: 10000
+num_workers: 32
+causal: true
+memory_efficient: false
+learning_rate: 3e-4
+model_type: 'gpt-mini'
+name: 'lehmer64'
+logdir: "./logs/"

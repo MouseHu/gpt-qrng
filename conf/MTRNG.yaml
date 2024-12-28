@@ -1,0 +1,18 @@
+#68G:
+datadir: "/data/2023-10-23-QRNG-DATA/prng/MTRNG/1M/data/MTRNG-128M-2.dat"
+savedir: "./model/MTRNG.model"
+nbits: 16
+seqlen: 1248
+seed: 42
+train_split: 0.097
+total_split: 0.1
+train_size: 10000000000
+batch_size: 10
+test_iter: 10000
+num_workers: 32
+causal: true
+memory_efficient: true
+learning_rate: 3e-4
+model_type: 'gpt-mini'
+name: 'MTRNG_memory_efficient'
+logdir: "./logs/"

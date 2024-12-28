@@ -1,0 +1,16 @@
+#68G:
+datadir: "/data/2023-10-23-QRNG-DATA/rng-data/prenoise/5G/homodyne_off/output.dat"
+savedir: "./model/prenoise5G_homodyneoff.model"
+nbits: 16
+seqlen: 20
+seed: 42
+train_split: 0.97
+total_split: 1
+train_size: 10000000000
+batch_size: 1024
+test_iter: 10000
+num_workers: 32
+causal: true
+model_type: 'gpt-mini'
+name: 'prenoise5G_homodyneoff'
+logdir: "./logs/"
